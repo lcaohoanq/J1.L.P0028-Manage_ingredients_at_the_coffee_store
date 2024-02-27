@@ -16,6 +16,7 @@ import java.awt.event.ActionEvent;
 public class MainFrame extends MyFrame{
     public MainFrame() {
         super();
+        super.setSize(600,500);
         includeScrollPane = false;
     }
     @Override
